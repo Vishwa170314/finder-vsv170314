@@ -9,7 +9,7 @@
 name: finder-vsv170314
 
 on:
-  release:
+  release: 
     types: [published]
 
 permissions:
@@ -18,7 +18,7 @@ permissions:
 jobs:
   deploy:
 
-    runs-on: ubuntu-latest
+    runs-on: mac os
 
     steps:
     - uses: actions/checkout@v3
